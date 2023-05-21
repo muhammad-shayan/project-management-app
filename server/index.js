@@ -9,7 +9,7 @@ const connectDB = require('./config/db')
 app = express()
 connectDB()
 
-//app.use(cors())
+app.use(cors())
 
 app.use('/graphql',graphqlHTTP({
     schema,

@@ -9,7 +9,8 @@ const clientSchema = new mongoose.Schema({
         unique: true
     },
     phone:{
-        type: String
+        type: String,
+        unique:true
     }
 })
 
