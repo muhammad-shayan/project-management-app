@@ -2,10 +2,11 @@
   "name": "project_mgmnt",
   "version": "1.0.0",
   "description": "",
-  "main": "server/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
-    "dev":"nodemon server/index.js"
+    "dev":"nodemon server/index.js",
+    "build": "npm run build --prefix client"
   },
   "keywords": [],
   "author": "",
