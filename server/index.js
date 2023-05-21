@@ -3,7 +3,7 @@ const {graphqlHTTP} = require('express-graphql')
 const schema = require('./schema/schema')
 const colors = require('colors')
 const cors = require('cors')
-require('dotenv').config()
+//require('dotenv').config()
 const connectDB = require('./config/db')
 const path = require('path')
 
