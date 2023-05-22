@@ -6,7 +6,7 @@ import { NotFound } from "./pages/NotFound";
 import { Projects } from "./pages/Projects";
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5000/graphql',
+  uri: '/graphql',
   cache: new InMemoryCache()
 })
 
